@@ -20,17 +20,22 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
+    
 }
+.container {
+    width: 1158px;
+    margin: 0 auto;
+}
+
+/* Global Styles */
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #ffffff;
     color: #434455;
 }
-.container{
-    width: 1158px;
-    margin: 0 auto;
 
-}
+
+/* Header Styles */
 .header-container .container{
     display: flex;
     justify-content: space-between;
@@ -111,18 +116,27 @@ nav {
     .address-link:focus {
         color: #404bbf;
     }
+/* Hero Section Styles */
 .hero-section {
     background-color: #2e2f42;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
     
-h1 {
+    align-items: center;
+    text-align: center;
+        }
+.hero-title {
     
         font-size: 56px;
         line-height: 1.07;
         letter-spacing: 0.02em;
+        align-items: center;
         text-align: center;    
         color: #ffffff;
         max-width: 496px;
@@ -144,6 +158,7 @@ h1 {
 .button:focus {
     background-color: #404BBF;
 }
+/* Features Section Styles */
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -182,6 +197,7 @@ h1 {
     letter-spacing: 0.02em;
     color: #434455;
 }
+/* Team Section Styles */
 .team-section {
     background-color: #f4f4fd;
     display: flex;
@@ -225,6 +241,7 @@ h1 {
     width: calc(100% - 72) / 4;
     
 }
+/* Portfolio Section Styles */
 .portfolio {
     font-size: 36px;
     line-height: 1.11;
@@ -267,7 +284,7 @@ h1 {
     cursor: pointer;} 
 
 
-
+/* Footer Section Styles */
 .footer {
     font-size: 16px;
     line-height: 1.5;
@@ -283,6 +300,11 @@ h1 {
     flex-direction: column;
     align-items: baseline;
     padding: 100px 0;
+    font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #f4f4fd;
+        background-color: #2e2f42;
     
 }
   
