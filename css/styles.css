@@ -293,18 +293,15 @@ nav {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     background-color: #2e2f42;
+    padding: 100px 0;
 }
+
 
 .footer .container{
     display: flex;
     flex-direction: column;
     align-items: baseline;
-    padding: 100px 0;
-    font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #f4f4fd;
-        background-color: #2e2f42;
+
     
 }
   
